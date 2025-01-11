@@ -45,6 +45,11 @@ namespace Assinment_OOP03
             DBA
         }
         #endregion
-
+        #region •We want to provide the Employee Class to represent Employee data in a string Form (override ToString ()),display employee salary in a currency format. [Use String.Format() Function].
+        public override string ToString()
+        {
+            return $"ID={ID} \n Name:{Name} \n security level={securityLevel} \n salary is{salary}\n hire date ={HireDate} \n Gender={Gender}" ;
+        }
+        #endregion
     }
 }
